@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import ReactMarkdown from "react-markdown";
 import { getAllPosts, getPost } from "@/lib/blog";
+import { NameMeaningTool } from "@/components/NameMeaningTool";
 import type { Metadata } from "next";
 
 export async function generateStaticParams() {
@@ -117,6 +118,8 @@ export default async function PostPage({
           prose-hr:border-zinc-800">
           <ReactMarkdown>{post.content}</ReactMarkdown>
         </article>
+
+        {post.slug === "the-name" && <NameMeaningTool />}
 
         <div className="mt-16 pt-12 border-t border-zinc-900">
           <Link
