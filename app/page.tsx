@@ -1,65 +1,482 @@
-import Image from "next/image";
+import Link from "next/link";
+import { getAllPosts } from "@/lib/blog";
+
+const VENTURES = [
+  // Live
+  {
+    name: "The Confident Man",
+    url: "https://theconfidentman.online",
+    category: "AI · Coaching",
+    description:
+      "An AI-powered confidence coach for men. Built in response to a cultural shift that nobody was talking about. A generation that needed a direct answer.",
+    live: true,
+  },
+  {
+    name: "The Confident Woman",
+    url: "#",
+    category: "AI · Coaching",
+    description:
+      "The female counterpart to The Confident Man. An AI coach designed for women navigating confidence, dating, and the social dynamics that nobody talks about directly.",
+    live: false,
+  },
+  {
+    name: "Ask The Sexes",
+    url: "#",
+    category: "Relationships · Media",
+    description:
+      "Relationship advice from the one perspective that actually matters. Real answers from the opposite sex, unfiltered and on demand.",
+    live: false,
+  },
+  {
+    name: "Sophia's Closet",
+    url: "#",
+    category: "Fashion · Community",
+    description:
+      "Clothing swap built for women. A curated marketplace to trade, share, and discover wardrobe pieces without the waste of buying new.",
+    live: false,
+  },
+  {
+    name: "Hollinger Holdings",
+    url: "https://hollinger-holdings.com",
+    category: "Holding Company",
+    description:
+      "A holding company focused on emerging technologies and AI. Built to acquire, incubate, and operate ventures at the leading edge of what is possible.",
+    live: true,
+  },
+  {
+    name: "Hollinger AI",
+    url: "https://hollingerai.com",
+    category: "AI Solutions",
+    description:
+      "Custom AI integrations for brick-and-mortar businesses. Taking tools reserved for enterprise and making them operational for the businesses that need them most.",
+    live: true,
+  },
+  // Building
+  {
+    name: "Wander Index",
+    url: "#",
+    category: "Travel · Lifestyle",
+    description:
+      "A private travel intelligence platform for people who move differently. Curated itineraries, insider access, and a community that knows the difference.",
+    live: false,
+  },
+  {
+    name: "Baseline Performance",
+    url: "#",
+    category: "Health · Performance",
+    description:
+      "Precision wellness for high-performers. Biometric tracking, recovery protocols, and AI-driven insights built around how serious people actually train.",
+    live: false,
+  },
+  {
+    name: "Clear Ledger",
+    url: "#",
+    category: "Finance · Tools",
+    description:
+      "Financial clarity for independent operators. A smarter way to track, plan, and protect the money you built without the overhead of a family office.",
+    live: false,
+  },
+  {
+    name: "Operator Desk",
+    url: "#",
+    category: "Productivity · AI",
+    description:
+      "An AI workspace built for founders and operators who run lean. Everything you need to think, plan, and execute in one clean environment.",
+    live: false,
+  },
+  {
+    name: "The Brief Room",
+    url: "#",
+    category: "Media · Intelligence",
+    description:
+      "Business intelligence for people who do not have time to read everything. Signal without the noise, delivered with the context that actually matters.",
+    live: false,
+  },
+  {
+    name: "Built Independent",
+    url: "#",
+    category: "Creator · Tools",
+    description:
+      "A platform for independent creators who are serious about their work. Tools, community, and infrastructure built for people who create on their own terms.",
+    live: false,
+  },
+  {
+    name: "Property IQ",
+    url: "#",
+    category: "Real Estate · Tech",
+    description:
+      "A smarter way to find, evaluate, and move on residential real estate. Built for the buyer who does their homework and moves fast when it counts.",
+    live: false,
+  },
+  {
+    name: "Growth Track AI",
+    url: "#",
+    category: "Education · AI",
+    description:
+      "Adaptive learning for driven adults who never stopped wanting to get better. Courses and coaching that meet you where you are and move at your pace.",
+    live: false,
+  },
+  {
+    name: "Form Lab",
+    url: "#",
+    category: "Fitness · Community",
+    description:
+      "A fitness platform built around accountability and real results. Structured programming, peer competition, and coaching that does not let you off the hook.",
+    live: false,
+  },
+  {
+    name: "Reply Ready",
+    url: "#",
+    category: "Communications · AI",
+    description:
+      "AI-powered communication tools for small business. Better customer conversations, faster response times, and the polish that makes people trust you.",
+    live: false,
+  },
+  {
+    name: "Scale Stack",
+    url: "#",
+    category: "Operations · AI",
+    description:
+      "Operational infrastructure for businesses that have outgrown their original systems. Built to scale without rebuilding from scratch.",
+    live: false,
+  },
+  {
+    name: "Secure Layer",
+    url: "#",
+    category: "Security · Tech",
+    description:
+      "Digital security built for individuals and small teams. Enterprise-grade protection without the enterprise-grade complexity or price tag.",
+    live: false,
+  },
+];
 
 export default function Home() {
+  const recentPosts = getAllPosts().slice(0, 3);
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+    <>
+      {/* ── Hero ── */}
+      <section className="min-h-screen flex flex-col justify-center px-6 pt-24 pb-16 relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-br from-zinc-900/30 via-transparent to-transparent pointer-events-none" />
+
+        <div className="max-w-5xl mx-auto w-full relative z-10 grid lg:grid-cols-2 gap-16 items-center">
+          {/* Text */}
+          <div>
+            <p className="text-zinc-500 text-xs tracking-[0.3em] uppercase mb-6 animate-fade-in">
+              Vancouver, Canada
+            </p>
+
+            <h1
+              className="font-serif text-5xl sm:text-7xl font-normal text-white tracking-tight mb-6 animate-fade-in"
+              style={{ animationDelay: "0.1s" }}
             >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+              Justin
+              <br />
+              Strange
+            </h1>
+
+            <p
+              className="text-zinc-400 text-sm tracking-[0.25em] uppercase mb-12 animate-fade-in"
+              style={{ animationDelay: "0.2s" }}
             >
-              Learning
-            </a>{" "}
-            center.
+              Founder&nbsp;&nbsp;·&nbsp;&nbsp;Builder&nbsp;&nbsp;·&nbsp;&nbsp;Creator&nbsp;&nbsp;·&nbsp;&nbsp;Operator
+            </p>
+
+            <p
+              className="text-zinc-300 text-lg sm:text-xl leading-relaxed animate-fade-in"
+              style={{ animationDelay: "0.3s" }}
+            >
+              Twenty years building businesses from first principles.
+              Currently at the intersection of technology, human confidence, and
+              what AI can do for the businesses most people forgot to automate.
+            </p>
+
+            <div
+              className="flex flex-wrap items-center gap-6 mt-12 animate-fade-in"
+              style={{ animationDelay: "0.4s" }}
+            >
+              <Link
+                href="/contact"
+                className="bg-white text-black text-xs font-medium tracking-widest uppercase px-8 py-4 hover:bg-zinc-200 transition-colors"
+              >
+                Get in Touch
+              </Link>
+              <Link
+                href="/blog"
+                className="text-zinc-400 hover:text-white text-xs tracking-widest uppercase transition-colors border-b border-zinc-700 pb-0.5"
+              >
+                Read My Writing →
+              </Link>
+            </div>
+          </div>
+
+          {/* Photo */}
+          <div
+            className="hidden lg:block relative animate-fade-in"
+            style={{ animationDelay: "0.3s" }}
+          >
+            <div className="relative overflow-hidden" style={{ aspectRatio: "2/3" }}>
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent z-10 pointer-events-none" />
+              <div className="absolute inset-0 bg-gradient-to-r from-[#0a0a0a] via-transparent to-transparent z-10 pointer-events-none" />
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/js-full-length.png"
+                alt="Justin Strange"
+                className="w-full h-full object-cover object-top"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── About / Bio ── */}
+      <section className="py-24 px-6 border-t border-zinc-900">
+        <div className="max-w-5xl mx-auto grid lg:grid-cols-5 gap-16 items-start">
+          {/* Photo column */}
+          <div className="hidden lg:block lg:col-span-2">
+            <div className="relative overflow-hidden" style={{ aspectRatio: "3/4" }}>
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#0a0a0a] z-10 pointer-events-none" />
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/js-portrait-seated.png"
+                alt="Justin Strange"
+                className="w-full h-full object-cover object-top grayscale"
+              />
+            </div>
+          </div>
+
+          {/* Text column */}
+          <div className="lg:col-span-3">
+            <p className="text-zinc-600 text-xs tracking-[0.3em] uppercase mb-4">About</p>
+            <h2 className="font-serif text-2xl text-white mb-8">The Long Game</h2>
+            <div className="space-y-5 text-zinc-400 text-base leading-relaxed">
+              <p>
+                I have been self-employed since 2004. That is not a boast. It is context.
+                It means I have never had the option of waiting for someone to hand me a plan.
+                Every business I have built started with a problem I could not stop thinking
+                about and a decision to do something about it.
+              </p>
+              <p>
+                The Confident Man came from watching something happen in real time. A generation
+                of young men losing their footing. Not dramatically, but quietly. Confidence
+                eroding, relationships fracturing, the social architecture that has held
+                communities together for generations starting to give way. Less marriage. A
+                distorted picture of what family life looks like. A deep uncertainty about what
+                a man is even supposed to be. I built something to address it directly.
+              </p>
+              <p>
+                Hollinger is the infrastructure around the things I believe are worth building.
+                A holding company for technology and AI ventures, and a consulting arm. Hollinger
+                AI takes the tools most small businesses have never accessed and makes them
+                operational. The businesses that need AI the most are not in Silicon Valley.
+                They are on Main Street, and most of them are still running on spreadsheets and goodwill.
+              </p>
+              <p>
+                Outside of work I fly, I train, I spend as much time outdoors as possible.
+                Ideally somewhere warm, preferably somewhere new. I give back where I can.
+                I have been a member of the Entrepreneurs&apos; Organization and served on the
+                Business Leaders Council advising the Premier of British Columbia on small
+                business policy. My children are the best thing I have ever built.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Photo strip ── */}
+      <section className="border-t border-zinc-900 overflow-hidden">
+        <div className="grid grid-cols-3 h-64 sm:h-80">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/js-portrait-close.png"
+            alt=""
+            className="w-full h-full object-cover object-top grayscale"
+          />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/js-portrait-side.png"
+            alt=""
+            className="w-full h-full object-cover object-top grayscale"
+          />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/js-portrait-seated.png"
+            alt=""
+            className="w-full h-full object-cover object-top grayscale"
+          />
+        </div>
+      </section>
+
+      {/* ── Philosophy quote ── */}
+      <section className="py-20 px-6 border-t border-zinc-900 bg-zinc-950/50">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="font-serif text-2xl sm:text-3xl text-white leading-relaxed tracking-wide text-balance">
+            &ldquo;The best businesses I have ever seen were not built on an idea.
+            They were built on a refusal to accept the way things already were.&rdquo;
+          </p>
+          <p className="text-zinc-600 text-xs tracking-widest uppercase mt-8">
+            Justin Strange
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      {/* ── Ventures ── */}
+      <section className="py-24 px-6 border-t border-zinc-900">
+        <div className="max-w-6xl mx-auto">
+          <div className="mb-14">
+            <p className="text-zinc-600 text-xs tracking-[0.3em] uppercase mb-4">Ventures</p>
+            <h2 className="font-serif text-2xl text-white mb-3">What I Am Building</h2>
+            <p className="text-zinc-600 text-sm">Live and in development across technology, lifestyle, and AI.</p>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {VENTURES.map((v) => {
+              const isLink = v.url !== "#";
+              const Tag = isLink ? "a" : "div";
+              const linkProps = isLink
+                ? { href: v.url, target: "_blank", rel: "noopener noreferrer" }
+                : {};
+              return (
+                <Tag
+                  key={v.name}
+                  {...(linkProps as Record<string, string>)}
+                  className={`group relative border p-6 transition-colors ${
+                    isLink
+                      ? "border-zinc-800 hover:border-zinc-600 cursor-pointer"
+                      : "border-zinc-900 cursor-default"
+                  }`}
+                >
+                  <div className="flex items-start justify-between mb-4">
+                    <p className="text-zinc-600 text-xs tracking-widest uppercase">
+                      {v.category}
+                    </p>
+                    {v.live ? (
+                      <span className="text-xs text-zinc-500 tracking-widest uppercase border border-zinc-800 px-2 py-0.5">
+                        In Production
+                      </span>
+                    ) : (
+                      <span className="text-xs text-zinc-700 tracking-widest uppercase">
+                        Building
+                      </span>
+                    )}
+                  </div>
+                  <h3
+                    className={`text-base font-light mb-3 transition-colors ${
+                      isLink
+                        ? "text-white group-hover:text-zinc-200"
+                        : "text-zinc-400"
+                    }`}
+                  >
+                    {v.name}
+                  </h3>
+                  <p className="text-zinc-600 text-xs leading-relaxed">{v.description}</p>
+                  {isLink && (
+                    <p className="text-zinc-700 text-xs mt-5 group-hover:text-zinc-400 transition-colors tracking-widest uppercase">
+                      Visit →
+                    </p>
+                  )}
+                </Tag>
+              );
+            })}
+          </div>
         </div>
-      </main>
-    </div>
+      </section>
+
+      {/* ── Credentials strip ── */}
+      <section className="py-16 px-6 border-t border-zinc-900">
+        <div className="max-w-5xl mx-auto">
+          <div className="grid sm:grid-cols-3 gap-8 text-center sm:text-left">
+            <div>
+              <p className="text-white text-4xl font-light mb-2">20+</p>
+              <p className="text-zinc-600 text-xs tracking-widest uppercase">
+                Years Self-Employed
+              </p>
+            </div>
+            <div>
+              <p className="text-white text-4xl font-light mb-2">EO</p>
+              <p className="text-zinc-600 text-xs tracking-widest uppercase">
+                Entrepreneurs&apos; Organization Alumni
+              </p>
+            </div>
+            <div>
+              <p className="text-white text-4xl font-light mb-2">BLC</p>
+              <p className="text-zinc-600 text-xs tracking-widest uppercase">
+                BC Business Leaders Council, Premier&apos;s Advisory
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Recent Writing ── */}
+      {recentPosts.length > 0 && (
+        <section className="py-24 px-6 border-t border-zinc-900">
+          <div className="max-w-5xl mx-auto">
+            <div className="flex items-end justify-between mb-14">
+              <div>
+                <p className="text-zinc-600 text-xs tracking-[0.3em] uppercase mb-4">Writing</p>
+                <h2 className="font-serif text-2xl text-white">Recent Thoughts</h2>
+              </div>
+              <Link
+                href="/blog"
+                className="text-zinc-500 hover:text-white text-xs tracking-widest uppercase transition-colors border-b border-zinc-800 pb-0.5 shrink-0"
+              >
+                All Writing →
+              </Link>
+            </div>
+
+            <div className="divide-y divide-zinc-900">
+              {recentPosts.map((post) => (
+                <Link
+                  key={post.slug}
+                  href={`/blog/${post.slug}`}
+                  className="group flex flex-col sm:flex-row sm:items-start gap-4 sm:gap-12 py-8 hover:opacity-80 transition-opacity"
+                >
+                  <p className="text-zinc-700 text-xs tracking-widest uppercase shrink-0 pt-1 w-28">
+                    {new Date(post.date).toLocaleDateString("en-US", {
+                      month: "short",
+                      year: "numeric",
+                    })}
+                  </p>
+                  <div>
+                    {post.category && (
+                      <p className="text-zinc-600 text-xs tracking-widest uppercase mb-2">
+                        {post.category}
+                      </p>
+                    )}
+                    <h3 className="text-white text-lg font-light mb-2 group-hover:text-zinc-200 transition-colors">
+                      {post.title}
+                    </h3>
+                    <p className="text-zinc-500 text-sm leading-relaxed">{post.description}</p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* ── CTA ── */}
+      <section className="py-24 px-6 border-t border-zinc-900">
+        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <h2 className="font-serif text-3xl sm:text-4xl text-white leading-snug mb-4">
+              If you have something worth building, let&apos;s talk.
+            </h2>
+            <p className="text-zinc-500 text-base leading-relaxed">
+              Whether it is an investment conversation, an AI pilot for your business,
+              or a collaboration worth exploring. The contact form is short and I actually read it.
+            </p>
+          </div>
+          <div className="flex md:justify-end">
+            <Link
+              href="/contact"
+              className="bg-white text-black text-xs font-medium tracking-widest uppercase px-10 py-5 hover:bg-zinc-200 transition-colors"
+            >
+              Start a Conversation
+            </Link>
+          </div>
+        </div>
+      </section>
+    </>
   );
 }
