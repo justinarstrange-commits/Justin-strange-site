@@ -474,6 +474,18 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ── Discipline quote ── */}
+      <section className="py-20 px-6 border-t border-zinc-900">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="font-serif text-3xl sm:text-5xl text-white tracking-tight">
+            &ldquo;Discipline is life&apos;s currency.&rdquo;
+          </p>
+          <p className="text-zinc-600 text-xs tracking-widest uppercase mt-8">
+            Justin Strange
+          </p>
+        </div>
+      </section>
+
       {/* ── Recent Writing ── */}
       {recentPosts.length > 0 && (
         <section className="py-24 px-6 border-t border-zinc-900">
