@@ -8,78 +8,100 @@ description: "Everyone suffers from a lack of it. Almost nobody talks about the 
 
 Let us talk about the most expensive thing you own.
 
-Not your car. Not your house. Not whatever you have sitting in an investment account that you check too often when the market gets weird.
+Not your car. Not your house. Not whatever you have sitting in an investment account that you check when the market gets weird and you need something new to worry about.
 
 Self-respect.
 
-The cost of not having it is staggering. And almost everybody is paying it.
+The cost of not having it is staggering. And almost everybody is paying it every single day without realising it, which is honestly the most expensive kind of bill there is.
 
 ## The tab you did not know you were running.
 
-Every time you replay something embarrassing from three years ago at 2am for no reason. Every time someone says something mildly dismissive and you spend the next four hours building a very detailed case for why they were right. Every time you talk yourself out of something before you even try. Every time you shrink a little, apologize for something that needed no apology, or let someone treat you in a way you would never let them treat someone you love.
+You know that thing where you are in the shower, completely alone, hot water running, and suddenly your brain goes: "Hey. Remember that thing you said at that party in 2014? Let us go through it again. Slowly."
 
-That is the bill. It arrives quietly and it is enormous.
+That is the bill arriving.
 
-And the thing that ran it up? Not your failures. Not your mistakes. Not the genuinely bad decisions you have made along the way. It was the small stuff. The perfectly ordinary human moments that you decided were evidence of something deeply wrong with you.
+Every replay of something embarrassing from years ago that shows up for no reason at 2am. Every time someone says something mildly dismissive and you spend the next four hours building a very thorough legal case for why they were completely right and you are, in fact, the problem. Every time you talk yourself out of something before you even try. Every time you shrink, apologize for something that needed no apology, or let someone treat you in a way you would never in a million years let them treat someone you love.
+
+That is the cost. It arrives quietly. It compounds daily. And it is enormous.
+
+The thing that ran it up was not your actual failures. Not your real mistakes. It was the small stuff. The perfectly ordinary human moments that you somehow decided were evidence of something fundamentally, irreparably wrong with you specifically.
+
+They were not. I promise.
 
 ## Let us talk about the booger.
 
-You have had a booger in your nose in front of someone important. I guarantee it. Maybe it was a date. Maybe it was a job interview. Maybe it was a presentation in front of a room full of people who were absolutely paying attention to your face.
+You have had a booger in your nose in front of someone important. I am not guessing. I know.
 
-You have bumped a curb parking while someone watched. You have said something you thought was funny and been met with silence so complete you could hear the air. You have called someone by the wrong name. You have waved back at someone who was waving at the person behind you and then had to pretend you were just stretching your arm. You have sent a message to the wrong person. You have fallen up the stairs.
+Maybe it was a first date. Maybe it was a job interview. Maybe it was a big presentation in front of a room full of people who were absolutely, definitely looking at your face the entire time. Somewhere, at some point, there was a booger and there was an audience and the two met in a way that nobody planned.
 
-All of it. Every flavour of human awkwardness, you have tasted it.
+You have also bumped a curb parking while someone watched from the pavement. You have said something you were absolutely certain was funny and been met with silence so complete you could hear individual air molecules. You have called someone by the wrong name, twice, after being corrected the first time. You have waved back enthusiastically at someone who was waving at the person directly behind you and then had to commit to the wave anyway and pretend you were just really happy to be outside. You have sent a message to exactly the wrong person. You have walked confidently into a push door. You have fallen up the stairs. You have laughed at something a second after everyone else stopped laughing. You have had food in your teeth through an entire conversation that mattered.
 
-And you have tortured yourself about it. Replayed it. Cringed at it in the shower. Woken up at 3am six months later and felt it fresh like it just happened.
+All of it. Every single flavour of human awkwardness that exists, you have tasted most of them and you have the rest coming.
 
-Here is the truth. Nobody cares as much as you think. They were too busy worrying about their own booger.
+And you have tortured yourself about it. Replayed it in cinematic detail. Cringed so hard in the shower that the hot water should have washed it away and it absolutely did not. Woken up at 3am months later with the specific memory arriving like an uninvited guest who knows exactly where you keep the good wine.
 
-## The most important fact you were never told.
+Here is the truth. Nobody cared as much as you think. They were too busy quietly dying about their own booger.
 
-You were one of roughly 300 million sperm in a single race.
+## The most important fact nobody told you.
+
+You were one of roughly 300 million in a single race.
 
 You won.
 
-Out of 300 million. You. This specific arrangement of everything that makes you the particular person reading this right now, came first. Before you could talk or walk or embarrass yourself at a dinner party, you had already beaten odds that would make any statistician need a moment.
+Before you could speak. Before you could walk. Before you could embarrass yourself at a work function or say the wrong thing or send that text or bump that curb. Before any of it, you had already beaten odds that would make a Vegas statistician put down their calculator and go for a long walk.
 
-That is not a small thing to walk around with. That is an extraordinary beginning that most people forget about entirely by the time they are old enough to be hard on themselves.
+300 million. And you are the one reading this.
 
-Welcome, by the way. Genuinely. The fact that you got here at all is a significant victory and it happened before you did anything at all.
+That is not nothing. That is the greatest opening act in the history of your story, and you did it before you were even a conscious participant. You came out of the gate an absolute champion and somehow by the time most people are adults they have completely forgotten about it and replaced it with a mental slideshow of their most awkward moments.
+
+Welcome, by the way. Genuinely, sincerely, with full appreciation for what it took to get here.
+
+You were wanted before you were anything else. That matters more than any cringeworthy moment that came after.
 
 ## Everyone is in the same movie.
 
-Here is something people pretend is not true. Every single person you have ever admired, feared, envied, or been intimidated by is out here in the same mess you are.
+Here is the thing people perform not knowing.
 
-Not most people. Everyone.
+Every single person you have ever admired, been intimidated by, envied, or secretly felt smaller than, is out here in the same spectacular mess you are.
 
-The polished executive has had spinach in their teeth during a meeting that cost them something. The person you think has it all together cried in their car recently over something that would embarrass them to admit. The confident one has a highlight reel of their own worst moments playing on a loop somewhere in the back of their head.
+Not most people. Every. Single. One.
 
-We all feel love, hurt, happiness, embarrassment, shame, joy and awkwardness all the way through. The full channel lineup. Nobody gets to pick and choose. The movie keeps playing for everyone and it is going to keep playing, which means more boogers are coming, more curbs will be bumped, more silences will land where laughs were supposed to go.
+The polished executive who makes everything look effortless had spinach in their teeth during a meeting that cost them something. The person you follow online who seems to have assembled a perfect life cried in their car recently about something they would be mortified to admit. The most confident person in any room you have ever been in has a highlight reel of their own worst moments that plays on quiet rotation in the back of their head.
 
-The only question is whether you are going to be good to yourself while it all happens or whether you are going to treat yourself like the one person in the theatre who is not allowed to enjoy the film.
+We all feel love and hurt and joy and shame and happiness and embarrassment and awkwardness all the way through the whole film. The full channel lineup, every channel, no option to unsubscribe. The movie keeps playing for everyone and it is going to keep playing, which means more boogers are coming. More curbs. More silences where laughs were supposed to go. More 3am replays of things that do not need replaying.
 
-## The weaker ones.
+The only question is whether you are going to be in your own corner while all of that happens, or whether you are going to be the one person in the theatre who is not allowed to enjoy their own film.
 
-Now. The people who try to take your self-respect. Who chip at it. Who make little comments, who diminish you in rooms, who somehow always have a version of events where you come out smaller than you were.
+Be in your corner. You have earned it.
 
-These people are not doing it because they are strong. They are doing it because they are not. Self-respect is not something a full person needs to take from someone else. Only someone whose own account is in trouble goes looking for yours.
+## The ones who try to take it.
 
-Their problem. Not yours.
+Some people will try to chip away at your self-respect. Little comments. Dismissals. The kind of person who somehow always has a version of events where you come out slightly smaller than you went in.
 
-You do not have to be angry about it. You do not have to explain yourself or defend yourself or convince them of anything. You just do not have to care. And the version of you that truly respects yourself genuinely does not care, because you are not looking to them to tell you who you are.
+Here is all you need to know about those people.
 
-You already know.
+Self-respect is not something a full person needs to borrow from someone else. It is not something someone who is doing well internally needs to take. The only reason someone goes looking for yours is because their own account is empty and they are hoping you will not notice the transaction.
 
-## Your best friend goes everywhere with you.
+Their problem. Genuinely, completely, not at all yours.
 
-There is one person who will be with you for every single moment of this life. Every success, every failure, every booger, every triumph, every 3am replay session, every good day, every hard year.
+You do not need to be angry. You do not need to explain yourself or correct them or win the argument. You just do not need to care. And when your own self-respect is solid, you genuinely will not, because you will not be waiting on their approval to tell you who you are.
+
+You already know who you are. You have known for a while.
+
+## The person who goes everywhere with you.
+
+There is one person who will be present for every single moment of your life. Every success and every failure. Every good day and every terrible year. Every moment you are proud of and every 3am booger replay. Every first and every last and everything in between.
 
 That is you.
 
-You are your own best friend and most people treat their best friend like a problem to be managed. Talk to yourself the way you would talk to someone you actually love. Celebrate the things you do that you feel good about. Extend yourself the same patience you would extend to anyone else who was just trying their best in a complicated world.
+You are your own best friend and most people treat their best friend like an ongoing disappointment. They speak to themselves in ways they would never speak to someone they love. They hold themselves to standards they would never hold a friend to and extend themselves exactly none of the grace they would hand to anyone else in the same situation without thinking twice.
 
-Respect that person. That person is remarkable. That person won the opening race out of 300 million and has been figuring it out ever since.
+Talk to yourself like someone worth talking to. Celebrate the things you do that you feel genuinely good about. Let the small stuff go because the small stuff is what life is mostly made of and if you are at war with it you are at war with everything.
 
-Be good to yourself. Not because you are perfect. Not because you never mess up. Because you are here, you are trying, and that is more than enough to deserve it.
+You are remarkable. Not because you are perfect. You are not perfect and neither is anyone pretending to be. You are remarkable because you got here against extraordinary odds, and you have been figuring it out ever since, and you have never actually stopped trying even when it looked like you did.
 
-The self-respect will handle the rest.
+That person who has been with you through all of it deserves your respect.
+
+Give it to them.
+
+They have absolutely earned it.
