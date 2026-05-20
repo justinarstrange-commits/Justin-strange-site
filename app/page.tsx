@@ -356,11 +356,10 @@ export default function Home() {
           </div>
           <div className="relative overflow-hidden">
             <Image
-              src="/js-portrait-close.png"
+              src="/js-portrait-alt.png"
               alt="Justin Strange"
               fill
-              className="object-cover grayscale"
-              style={{ objectPosition: "center 20%" }}
+              className="object-cover object-top grayscale"
             />
           </div>
           <div className="relative overflow-hidden">
