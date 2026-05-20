@@ -348,24 +348,25 @@ export default function Home() {
         <div className="grid grid-cols-3 h-64 sm:h-80">
           <div className="relative overflow-hidden">
             <Image
-              src="/js-portrait-close.png"
-              alt="Justin Strange — close portrait"
+              src="/js-portrait-side.png"
+              alt="Justin Strange"
               fill
               className="object-cover object-top grayscale"
             />
           </div>
           <div className="relative overflow-hidden">
             <Image
-              src="/js-portrait-side.png"
-              alt="Justin Strange — side profile"
+              src="/js-portrait-close.png"
+              alt="Justin Strange"
               fill
-              className="object-cover object-top grayscale"
+              className="object-cover grayscale"
+              style={{ objectPosition: "center 40%" }}
             />
           </div>
           <div className="relative overflow-hidden">
             <Image
               src="/js-portrait-seated.png"
-              alt="Justin Strange — seated portrait"
+              alt="Justin Strange"
               fill
               className="object-cover object-top grayscale"
             />
