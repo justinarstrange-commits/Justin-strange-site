@@ -274,7 +274,7 @@ export default function Home() {
             className="hidden lg:block relative animate-fade-in"
             style={{ animationDelay: "0.3s" }}
           >
-            <div className="relative overflow-hidden" style={{ aspectRatio: "2/3" }}>
+            <div className="relative overflow-hidden w-full" style={{ aspectRatio: "2/3" }}>
               <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent z-10 pointer-events-none" />
               <div className="absolute inset-0 bg-gradient-to-r from-[#0a0a0a] via-transparent to-transparent z-10 pointer-events-none" />
               <Image
@@ -294,7 +294,7 @@ export default function Home() {
         <div className="max-w-5xl mx-auto grid lg:grid-cols-5 gap-16 items-start">
           {/* Photo column */}
           <div className="hidden lg:block lg:col-span-2">
-            <div className="relative overflow-hidden" style={{ aspectRatio: "3/4" }}>
+            <div className="relative overflow-hidden w-full" style={{ aspectRatio: "3/4" }}>
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#0a0a0a] z-10 pointer-events-none" />
               <Image
                 src="/js-portrait-seated.png"
