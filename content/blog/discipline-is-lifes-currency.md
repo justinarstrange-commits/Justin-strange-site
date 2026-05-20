@@ -12,7 +12,7 @@ You cannot print more of it. You cannot borrow it. Nobody is going to hand it to
 
 Most people are waiting. Waiting for the right moment, the right mood, the right circumstances, the enough money, the enough time, the enough confidence. They are waiting for conditions that will never arrive because the conditions are not the problem. They were never the problem.
 
-The problem is that discipline is hard and waiting is easy. And easy always wins in the short run.
+The problem is that discipline is hard and the couch is comfortable. And the couch always wins in the short run.
 
 ## The account you build inside yourself.
 
@@ -22,7 +22,7 @@ Every time you do what you said you were going to do, you make a deposit. Every 
 
 And then one day you want something. A business. A body. A life that looks different from the one you have now. You reach into that account and you pay for it. With discipline. Not money.
 
-This is the part most people never figure out. They think the obstacle between them and what they want is money, or connections, or the right opportunity. It is not. The obstacle is that they have been making withdrawals for years, or nothing at all, and the account is empty. When the moment comes to pay, there is nothing there.
+This is the part most people never figure out. They think the obstacle between them and what they want is money, or connections, or the right opportunity. It is not. The obstacle is that they have been making withdrawals for years, or nothing at all, and the account is empty. When the moment comes to pay, there is nothing there. Not even enough for the interest.
 
 The people who have what you want are not luckier than you. They are not more talented than you. They have a fuller account. They have been depositing quietly, for a long time, and when the cost came due they could afford it.
 
@@ -36,17 +36,19 @@ Everyone wants it. A strong body. Real energy. The way your clothes fit when you
 
 So why does almost nobody have it?
 
-Because fitness does not accept money as payment. It only accepts discipline. And most people's discipline account is overdrawn.
+Because fitness does not accept money as payment. It only accepts discipline. And most people's discipline account is so overdrawn the bank sent a strongly worded letter.
 
-The person with the extraordinary body is not richer than you. They are not more gifted than you. They have been making deposits daily, unremarkably, without an audience, and when you see the result and call it genetics or luck you are missing the point entirely. You are looking at a withdrawal from an account they built in private.
+The person with the extraordinary body is not richer than you. They are not more gifted than you. They have been making deposits daily, unremarkably, without an audience, and when you see the result and call it genetics or a fast metabolism you are missing the point entirely. You are looking at a withdrawal from an account they built in private while you were busy having a very important reason not to go to the gym.
 
 That is what discipline buys. Things money cannot touch. Things shortcuts cannot replicate. Things no amount of wanting will produce if you are not willing to pay the price in the only currency that works.
 
 ## What discipline actually is.
 
-It is not motivation. Motivation is a feeling. Feelings come and go. If you need to feel like doing the work before you do the work, you will do the work approximately never.
+It is not motivation. Motivation is a feeling. Feelings come and go and are frankly unreliable business partners.
 
-Discipline is showing up when you do not feel like it. When it is early and dark and the bed is warm and every reasonable part of your brain is telling you there is a perfectly good reason to start tomorrow. Discipline is the part of you that does not negotiate with that voice. It does not argue with it. It does not try to convince it. It just gets up.
+If you need to feel like doing the work before you do the work, you will do the work approximately never. You will feel like it on January 1st and possibly January 3rd and then feelings will have other plans.
+
+Discipline is showing up when you do not feel like it. When it is early and dark and the bed is warm and every reasonable part of your brain is presenting a compelling case for why tomorrow is just as good. Discipline is the part of you that does not negotiate with that voice. It does not argue with it. It does not try to convince it. It just gets up.
 
 That is the whole thing. It is not complicated. It is just hard.
 
@@ -54,25 +56,25 @@ And because it is hard, most people do not do it. And because most people do not
 
 ## Action beats talent. Leaves luck in the dust.
 
-Talent is potential. Nothing more. The world is full of talented people who produced nothing. People who could have, who should have, who had every gift required and never used them because they were waiting to feel ready. Talent without action is a story you tell yourself at night about what you could have been.
+Talent is potential. Nothing more. The world is full of talented people who produced nothing. People who could have, who should have, who had every gift required and never used them because they were waiting to feel ready. Talent without action is just a very flattering story you tell yourself.
 
-Luck is weather. It happens to you. Sometimes good, sometimes bad. You cannot control it, you cannot predict it, and the people who credit their success entirely to it are either lying or have not thought hard enough about what actually happened. The disciplined person creates so many attempts that luck becomes almost irrelevant. They do not need luck to show up at exactly the right moment. They are already there.
+Luck is weather. It happens to you. Sometimes good, sometimes bad. You cannot control it, you cannot predict it, and the people who credit their success entirely to it are either being modest or have not thought hard enough about what actually happened. The disciplined person creates so many attempts that luck becomes almost irrelevant. They do not need luck to show up at exactly the right moment. They are already there, slightly early, having done the work.
 
 Action is the only variable you actually control. And discipline is what produces action, day after day, whether the conditions are right or not.
 
 ## The compounding.
 
-Every day you do the thing you said you would do, it becomes slightly easier to do it again tomorrow. Every day you skip it, it becomes slightly easier to skip it again. The gap between the disciplined person and the undisciplined person is not visible in week one. It is enormous by year three. It is a different life by year ten.
+Every day you do the thing you said you would do, it becomes slightly easier to do it again tomorrow. Every day you skip it, it becomes slightly easier to skip it again. The gap between the disciplined person and the undisciplined person is not visible in week one. It is enormous by year three. It is a completely different life by year ten.
 
 That is the part most people miss. They look at someone who has built something real, a body, a business, a body of work, and they see the result. They do not see the thousand mornings nobody was watching. The thousand decisions to do the thing instead of the other thing. The thousand small deposits into an account that paid out slowly, invisibly, and then all at once.
 
-The result looks like talent. It looks like luck. It is neither.
+The result looks like talent. It looks like luck. It is neither. It is just a very full account.
 
-It is a full account. And the only way to fill it is one deposit at a time.
+And the only way to fill it is one deposit at a time.
 
 ## The one question.
 
-You already know what you are supposed to be doing. You do not need another framework, another book, another podcast, another plan. You know what the work is. You know when you are doing it and when you are avoiding it.
+You already know what you are supposed to be doing. You do not need another framework, another book, another podcast, another plan. You know what the work is. You know when you are doing it and when you are doing something else and calling it research.
 
 The only question is whether you are going to make a deposit today.
 
