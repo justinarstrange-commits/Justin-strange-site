@@ -6,24 +6,14 @@ export function Footer() {
         <p className="text-zinc-600 text-xs tracking-widest uppercase">
           © {year} Justin Strange
         </p>
-        <div className="flex items-center gap-6">
-          <a
-            href="https://theconfidentman.online"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-zinc-600 hover:text-zinc-400 text-xs tracking-widest uppercase transition-colors"
-          >
-            The Confident Man
-          </a>
-          <a
-            href="https://hollinger-holdings.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-zinc-600 hover:text-zinc-400 text-xs tracking-widest uppercase transition-colors"
-          >
-            Hollinger
-          </a>
-        </div>
+        <a
+          href="https://hollinger-holdings.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-zinc-600 hover:text-zinc-400 text-xs tracking-widest uppercase transition-colors"
+        >
+          Hollinger
+        </a>
       </div>
     </footer>
   );
