@@ -88,6 +88,26 @@ You do not need to be angry. You do not need to explain yourself or correct them
 
 You already know who you are. You have known for a while.
 
+## The rules were made up by other booger havers.
+
+Here is something worth sitting with.
+
+Every rule you feel like you are supposed to follow. Every standard you feel like you are falling short of. Every version of normal you feel like you are not quite measuring up to. Those were invented by people. Specific, imperfect, curb-bumping, 3am-shower-cringing, wave-at-the-wrong-person people. People who had no more authority to define how a life should look than you do.
+
+They just went first and spoke loudly.
+
+You are your own person. You get to dress how you want to dress, walk how you want to walk, build your life in whatever shape actually fits the person living it. As long as you are not hurting anyone, the opinions of people following rules written by strangers they have never met and will never meet are genuinely none of your business.
+
+Think about that for a second. Most people are spending real energy worrying about whether they are meeting the expectations of a standard that was invented by someone who also had spinach in their teeth and also waved at the wrong person and also lay awake at night questioning everything. The whole architecture of what you are supposed to be was designed by humans. Humans are, as we have established, a spectacular mess.
+
+You get to opt out.
+
+Wear the thing. Take the road that makes no sense to anyone but you. Build something weird. Love loudly. Leave early. Stay late. Order the thing nobody else orders. Live in a way that your best friend, the one who goes everywhere with you, would be proud of. Not the version of you performing for an audience of people you barely know. The real version. The free one.
+
+That is not recklessness. That is self-respect with the volume turned all the way up.
+
+Be free. Be you. Always. That is the whole instruction manual.
+
 ## The person who goes everywhere with you.
 
 There is one person who will be present for every single moment of your life. Every success and every failure. Every good day and every terrible year. Every moment you are proud of and every 3am booger replay. Every first and every last and everything in between.
