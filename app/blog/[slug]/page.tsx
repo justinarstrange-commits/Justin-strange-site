@@ -8,6 +8,8 @@ export async function generateStaticParams() {
   return getAllPosts().map((p) => ({ slug: p.slug }));
 }
 
+const BASE = process.env.NEXT_PUBLIC_SITE_URL ?? "https://justinstrange.site";
+
 export async function generateMetadata({
   params,
 }: {
@@ -16,7 +18,35 @@ export async function generateMetadata({
   const { slug } = await params;
   const post = getPost(slug);
   if (!post) return {};
-  return { title: `${post.title} | Justin Strange`, description: post.description };
+  return {
+    title: post.title,
+    description: post.description,
+    authors: [{ name: "Justin Strange", url: BASE }],
+    keywords: ["Justin Strange", post.category ?? "", "entrepreneurship", "Hollinger"].filter(Boolean),
+    openGraph: {
+      title: post.title,
+      description: post.description,
+      type: "article",
+      url: `${BASE}/blog/${slug}`,
+      siteName: "Justin Strange",
+      publishedTime: new Date(post.date).toISOString(),
+      authors: ["Justin Strange"],
+      images: [
+        {
+          url: `${BASE}/justin-strange.png`,
+          width: 1200,
+          height: 630,
+          alt: `${post.title} — Justin Strange`,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.description,
+      images: [`${BASE}/justin-strange.png`],
+    },
+  };
 }
 
 export default async function PostPage({
@@ -28,8 +58,33 @@ export default async function PostPage({
   const post = getPost(slug);
   if (!post) notFound();
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": post.title,
+    "description": post.description,
+    "datePublished": new Date(post.date).toISOString(),
+    "url": `${BASE}/blog/${post.slug}`,
+    "image": `${BASE}/justin-strange.png`,
+    "author": {
+      "@type": "Person",
+      "name": "Justin Strange",
+      "url": BASE,
+    },
+    "publisher": {
+      "@type": "Person",
+      "name": "Justin Strange",
+      "url": BASE,
+    },
+    "keywords": ["Justin Strange", post.category ?? "", "Hollinger"].filter(Boolean).join(", "),
+  };
+
   return (
     <div className="min-h-screen pt-32 pb-24 px-6">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="max-w-2xl mx-auto">
         <Link
           href="/blog"

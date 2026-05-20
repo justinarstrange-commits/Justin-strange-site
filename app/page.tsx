@@ -150,10 +150,66 @@ const VENTURES = [
   },
 ];
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://justinstrange.site/#justin-strange",
+      "name": "Justin Strange",
+      "url": "https://justinstrange.site",
+      "image": "https://justinstrange.site/justin-strange.png",
+      "jobTitle": "Founder & Operator",
+      "description":
+        "Founder, builder, creator, and operator. Vancouver-based entrepreneur with twenty years building businesses at the intersection of technology, confidence, and human potential.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Vancouver",
+        "addressRegion": "BC",
+        "addressCountry": "CA",
+      },
+      "knowsAbout": [
+        "Entrepreneurship",
+        "Artificial Intelligence",
+        "Small Business",
+        "Confidence Coaching",
+        "Technology Ventures",
+      ],
+      "founder": [
+        { "@type": "Organization", "name": "Hollinger Holdings", "url": "https://hollinger-holdings.com" },
+        { "@type": "Organization", "name": "Hollinger AI", "url": "https://hollingerai.com" },
+        { "@type": "Organization", "name": "The Confident Man", "url": "https://theconfidentman.online" },
+      ],
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://hollinger-holdings.com/#organization",
+      "name": "Hollinger Holdings",
+      "url": "https://hollinger-holdings.com",
+      "description":
+        "A holding company focused on emerging technologies and AI, founded by Justin Strange.",
+      "founder": { "@id": "https://justinstrange.site/#justin-strange" },
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://hollingerai.com/#organization",
+      "name": "Hollinger AI",
+      "url": "https://hollingerai.com",
+      "description":
+        "Custom AI integrations for brick-and-mortar businesses, founded by Justin Strange.",
+      "founder": { "@id": "https://justinstrange.site/#justin-strange" },
+    },
+  ],
+};
+
 export default function Home() {
   const recentPosts = getAllPosts().slice(0, 3);
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* ── Hero ── */}
       <section className="min-h-screen flex flex-col justify-center px-6 pt-24 pb-16 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-zinc-900/30 via-transparent to-transparent pointer-events-none" />
@@ -288,19 +344,19 @@ export default function Home() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/js-portrait-close.png"
-            alt=""
+            alt="Justin Strange — close portrait"
             className="w-full h-full object-cover object-top grayscale"
           />
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/js-portrait-side.png"
-            alt=""
+            alt="Justin Strange — side profile"
             className="w-full h-full object-cover object-top grayscale"
           />
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/js-portrait-seated.png"
-            alt=""
+            alt="Justin Strange — seated portrait"
             className="w-full h-full object-cover object-top grayscale"
           />
         </div>
