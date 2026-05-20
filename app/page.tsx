@@ -360,7 +360,7 @@ export default function Home() {
               alt="Justin Strange"
               fill
               className="object-cover grayscale"
-              style={{ objectPosition: "center 40%" }}
+              style={{ objectPosition: "center 20%" }}
             />
           </div>
           <div className="relative overflow-hidden">
