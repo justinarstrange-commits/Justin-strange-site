@@ -111,8 +111,8 @@ export default async function PostPage({
         </p>
 
         <article className="prose prose-invert prose-zinc max-w-none
-          prose-headings:font-serif prose-headings:font-normal prose-headings:text-white
-          prose-p:text-zinc-400 prose-p:leading-relaxed
+          prose-headings:font-serif prose-headings:font-normal prose-headings:text-white prose-headings:mt-14 prose-headings:mb-6
+          prose-p:text-zinc-400 prose-p:leading-loose prose-p:mb-6 prose-p:text-lg
           prose-a:text-zinc-300 prose-a:no-underline hover:prose-a:text-white
           prose-strong:text-zinc-200
           prose-hr:border-zinc-800">
