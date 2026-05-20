@@ -2,8 +2,20 @@ import Link from "next/link";
 import { getAllPosts } from "@/lib/blog";
 
 export const metadata = {
-  title: "Writing | Justin Strange",
-  description: "Thoughts on entrepreneurship, technology, confidence, and building things that matter.",
+  title: "Writing",
+  description: "Thoughts on entrepreneurship, technology, confidence, and building things that matter. Essays by Justin Strange.",
+  openGraph: {
+    title: "Writing | Justin Strange",
+    description: "Thoughts on entrepreneurship, technology, confidence, and building things that matter.",
+    type: "website",
+    url: "/blog",
+    siteName: "Justin Strange",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Writing | Justin Strange",
+    description: "Thoughts on entrepreneurship, technology, confidence, and building things that matter.",
+  },
 };
 
 export default function BlogPage() {

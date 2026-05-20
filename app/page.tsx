@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { getAllPosts } from "@/lib/blog";
 
 const VENTURES = [
@@ -158,7 +159,10 @@ const jsonLd = {
       "@id": "https://justinstrange.site/#justin-strange",
       "name": "Justin Strange",
       "url": "https://justinstrange.site",
-      "image": "https://justinstrange.site/justin-strange.png",
+      "image": "https://justinstrange.site/og-image.png",
+      "sameAs": [
+        "https://x.com/jstrangeai",
+      ],
       "jobTitle": "Founder & Operator",
       "description":
         "Founder, builder, creator, and operator. Vancouver-based entrepreneur with twenty years building businesses at the intersection of technology, confidence, and human potential.",
@@ -273,11 +277,12 @@ export default function Home() {
             <div className="relative overflow-hidden" style={{ aspectRatio: "2/3" }}>
               <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent z-10 pointer-events-none" />
               <div className="absolute inset-0 bg-gradient-to-r from-[#0a0a0a] via-transparent to-transparent z-10 pointer-events-none" />
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
+              <Image
                 src="/js-full-length.png"
                 alt="Justin Strange"
-                className="w-full h-full object-cover object-top"
+                fill
+                className="object-cover object-top"
+                priority
               />
             </div>
           </div>
@@ -291,11 +296,11 @@ export default function Home() {
           <div className="hidden lg:block lg:col-span-2">
             <div className="relative overflow-hidden" style={{ aspectRatio: "3/4" }}>
               <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#0a0a0a] z-10 pointer-events-none" />
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
+              <Image
                 src="/js-portrait-seated.png"
-                alt="Justin Strange"
-                className="w-full h-full object-cover object-top grayscale"
+                alt="Justin Strange seated"
+                fill
+                className="object-cover object-top grayscale"
               />
             </div>
           </div>
@@ -341,24 +346,30 @@ export default function Home() {
       {/* ── Photo strip ── */}
       <section className="border-t border-zinc-900 overflow-hidden">
         <div className="grid grid-cols-3 h-64 sm:h-80">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src="/js-portrait-close.png"
-            alt="Justin Strange — close portrait"
-            className="w-full h-full object-cover object-top grayscale"
-          />
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src="/js-portrait-side.png"
-            alt="Justin Strange — side profile"
-            className="w-full h-full object-cover object-top grayscale"
-          />
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src="/js-portrait-seated.png"
-            alt="Justin Strange — seated portrait"
-            className="w-full h-full object-cover object-top grayscale"
-          />
+          <div className="relative overflow-hidden">
+            <Image
+              src="/js-portrait-close.png"
+              alt="Justin Strange — close portrait"
+              fill
+              className="object-cover object-top grayscale"
+            />
+          </div>
+          <div className="relative overflow-hidden">
+            <Image
+              src="/js-portrait-side.png"
+              alt="Justin Strange — side profile"
+              fill
+              className="object-cover object-top grayscale"
+            />
+          </div>
+          <div className="relative overflow-hidden">
+            <Image
+              src="/js-portrait-seated.png"
+              alt="Justin Strange — seated portrait"
+              fill
+              className="object-cover object-top grayscale"
+            />
+          </div>
         </div>
       </section>
 

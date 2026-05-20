@@ -19,7 +19,7 @@ const cinzel = Cinzel({
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://justinstrange.com"
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://justinstrange.site"
   ),
   title: {
     default: "Justin Strange",
@@ -36,10 +36,10 @@ export const metadata: Metadata = {
     siteName: "Justin Strange",
     images: [
       {
-        url: "/justin-strange.png",
+        url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Justin Strange",
+        alt: "Justin Strange — Founder, Builder, Creator, Operator",
       },
     ],
   },
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     title: "Justin Strange",
     description:
       "Founder. Builder. Creator. Operator. Twenty years building businesses from first principles.",
-    images: ["/justin-strange.png"],
+    images: ["/og-image.png"],
   },
 };
 
