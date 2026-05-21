@@ -6,9 +6,11 @@ export function Footer() {
         <p className="text-zinc-600 text-xs tracking-widest uppercase">
           © {year} Justin Strange
         </p>
-        <p className="text-zinc-600 text-xs tracking-widest uppercase">
-          Hollinger is a Justin Strange Company
-        </p>
+        <div className="text-center sm:text-right">
+          <p className="text-zinc-500 text-xs tracking-widest uppercase">Hollinger AI</p>
+          <p className="text-zinc-700 text-xs tracking-widest uppercase">Applied AI Performance Systems</p>
+          <p className="text-zinc-700 text-xs tracking-widest uppercase">A Justin Strange Company</p>
+        </div>
       </div>
     </footer>
   );
