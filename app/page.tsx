@@ -5,148 +5,164 @@ import { getAllPosts } from "@/lib/blog";
 const VENTURES = [
   // Live
   {
-    name: "The Confident Man",
-    url: "https://theconfidentman.online",
-    category: "AI · Coaching",
-    description:
-      "An AI-powered confidence coach for men. Built in response to a cultural shift that nobody was talking about. A generation that needed a direct answer.",
-    live: true,
-  },
-  {
-    name: "The Confident Woman",
-    url: "#",
-    category: "AI · Coaching",
-    description:
-      "The female counterpart to The Confident Man. An AI coach designed for women navigating confidence, dating, and the social dynamics that nobody talks about directly.",
-    live: false,
-  },
-  {
-    name: "Ask The Sexes",
-    url: "#",
-    category: "Relationships · Media",
-    description:
-      "Relationship advice from the one perspective that actually matters. Real answers from the opposite sex, unfiltered and on demand.",
-    live: false,
-  },
-  {
-    name: "Sophia's Closet",
-    url: "#",
-    category: "Fashion · Community",
-    description:
-      "Clothing swap built for women. A curated marketplace to trade, share, and discover wardrobe pieces without the waste of buying new.",
-    live: false,
-  },
-  {
     name: "Hollinger Holdings",
+    initials: "HH",
     url: "https://hollinger-holdings.com",
     category: "Holding Company",
-    description:
-      "A holding company focused on emerging technologies and AI. Built to acquire, incubate, and operate ventures at the leading edge of what is possible.",
+    description: "A holding company focused on emerging technologies and AI. Built to acquire, incubate, and operate ventures at the leading edge of what is possible.",
     live: true,
   },
   {
     name: "Hollinger AI",
+    initials: "H·AI",
     url: "https://hollingerai.com",
     category: "AI Solutions",
-    description:
-      "Custom AI integrations for brick-and-mortar businesses. Taking tools reserved for enterprise and making them operational for the businesses that need them most.",
+    description: "Custom AI integrations for brick-and-mortar businesses. Taking tools reserved for enterprise and making them operational for the businesses that need them most.",
+    live: true,
+  },
+  {
+    name: "Hugo",
+    initials: "HGO",
+    url: "https://hugo-ai.online",
+    category: "AI · Real Estate",
+    description: "An AI-powered real estate intelligence platform. Built for agents and buyers who want an edge — faster decisions, smarter searches, better outcomes.",
+    live: true,
+  },
+  {
+    name: "Orca",
+    initials: "ORC",
+    url: "https://orca-ai.online",
+    category: "AI · Agents",
+    description: "An autonomous AI agent engine built for operators who need things done, not just answered. Deploy, automate, and execute without the overhead.",
+    live: true,
+  },
+  {
+    name: "Hollinger Media",
+    initials: "HM",
+    url: "https://hollingermedia.site",
+    category: "Media · Content",
+    description: "The media arm of Hollinger. Content, storytelling, and distribution built around the brands and ideas worth amplifying.",
+    live: true,
+  },
+  {
+    name: "The Confident Man",
+    initials: "CM",
+    url: "https://theconfidentman.online",
+    category: "AI · Coaching",
+    description: "An AI-powered confidence coach for men. Built in response to a cultural shift that nobody was talking about. A generation that needed a direct answer.",
     live: true,
   },
   // Building
   {
+    name: "Big Willy",
+    initials: "BW",
+    url: "#",
+    category: "Hospitality · Brand",
+    description: "A bold hospitality brand built around character, quality, and the kind of experience people talk about after. More soon.",
+    live: false,
+  },
+  {
+    name: "Cocktails Hollinger",
+    initials: "C·H",
+    url: "#",
+    category: "Hospitality · Spirits",
+    description: "A premium cocktail brand under the Hollinger umbrella. Crafted for people who drink well and know the difference.",
+    live: false,
+  },
+  {
+    name: "The Georgia Crumb",
+    initials: "GC",
+    url: "#",
+    category: "Food · Bakery",
+    description: "A boutique bakery concept built around craft, warmth, and the kind of food that makes a neighbourhood feel like home.",
+    live: false,
+  },
+  {
+    name: "Hollinger Power Control Centre",
+    initials: "HPCC",
+    url: "#",
+    category: "Energy · Technology",
+    description: "Intelligent power management and control systems for commercial and industrial operators. Precision infrastructure for businesses that cannot afford downtime.",
+    live: false,
+  },
+  {
+    name: "The Confident Woman",
+    initials: "CW",
+    url: "#",
+    category: "AI · Coaching",
+    description: "The female counterpart to The Confident Man. An AI coach designed for women navigating confidence, dating, and the social dynamics that nobody talks about directly.",
+    live: false,
+  },
+  {
+    name: "Ask The Sexes",
+    initials: "ATS",
+    url: "#",
+    category: "Relationships · Media",
+    description: "Relationship advice from the one perspective that actually matters. Real answers from the opposite sex, unfiltered and on demand.",
+    live: false,
+  },
+  {
     name: "Wander Index",
+    initials: "WI",
     url: "#",
     category: "Travel · Lifestyle",
-    description:
-      "A private travel intelligence platform for people who move differently. Curated itineraries, insider access, and a community that knows the difference.",
+    description: "A private travel intelligence platform for people who move differently. Curated itineraries, insider access, and a community that knows the difference.",
     live: false,
   },
   {
     name: "Baseline Performance",
+    initials: "BP",
     url: "#",
     category: "Health · Performance",
-    description:
-      "Precision wellness for high-performers. Biometric tracking, recovery protocols, and AI-driven insights built around how serious people actually train.",
+    description: "Precision wellness for high-performers. Biometric tracking, recovery protocols, and AI-driven insights built around how serious people actually train.",
     live: false,
   },
   {
     name: "Clear Ledger",
+    initials: "CL",
     url: "#",
     category: "Finance · Tools",
-    description:
-      "Financial clarity for independent operators. A smarter way to track, plan, and protect the money you built without the overhead of a family office.",
+    description: "Financial clarity for independent operators. A smarter way to track, plan, and protect the money you built without the overhead of a family office.",
     live: false,
   },
   {
     name: "Operator Desk",
+    initials: "OD",
     url: "#",
     category: "Productivity · AI",
-    description:
-      "An AI workspace built for founders and operators who run lean. Everything you need to think, plan, and execute in one clean environment.",
+    description: "An AI workspace built for founders and operators who run lean. Everything you need to think, plan, and execute in one clean environment.",
     live: false,
   },
   {
-    name: "The Brief Room",
+    name: "Sophia's Closet",
+    initials: "SC",
     url: "#",
-    category: "Media · Intelligence",
-    description:
-      "Business intelligence for people who do not have time to read everything. Signal without the noise, delivered with the context that actually matters.",
-    live: false,
-  },
-  {
-    name: "Built Independent",
-    url: "#",
-    category: "Creator · Tools",
-    description:
-      "A platform for independent creators who are serious about their work. Tools, community, and infrastructure built for people who create on their own terms.",
+    category: "Fashion · Community",
+    description: "Clothing swap built for women. A curated marketplace to trade, share, and discover wardrobe pieces without the waste of buying new.",
     live: false,
   },
   {
     name: "Property IQ",
+    initials: "PIQ",
     url: "#",
     category: "Real Estate · Tech",
-    description:
-      "A smarter way to find, evaluate, and move on residential real estate. Built for the buyer who does their homework and moves fast when it counts.",
-    live: false,
-  },
-  {
-    name: "Growth Track AI",
-    url: "#",
-    category: "Education · AI",
-    description:
-      "Adaptive learning for driven adults who never stopped wanting to get better. Courses and coaching that meet you where you are and move at your pace.",
-    live: false,
-  },
-  {
-    name: "Form Lab",
-    url: "#",
-    category: "Fitness · Community",
-    description:
-      "A fitness platform built around accountability and real results. Structured programming, peer competition, and coaching that does not let you off the hook.",
+    description: "A smarter way to find, evaluate, and move on residential real estate. Built for the buyer who does their homework and moves fast when it counts.",
     live: false,
   },
   {
     name: "Reply Ready",
+    initials: "RR",
     url: "#",
     category: "Communications · AI",
-    description:
-      "AI-powered communication tools for small business. Better customer conversations, faster response times, and the polish that makes people trust you.",
+    description: "AI-powered communication tools for small business. Better customer conversations, faster response times, and the polish that makes people trust you.",
     live: false,
   },
   {
     name: "Scale Stack",
+    initials: "SS",
     url: "#",
     category: "Operations · AI",
-    description:
-      "Operational infrastructure for businesses that have outgrown their original systems. Built to scale without rebuilding from scratch.",
-    live: false,
-  },
-  {
-    name: "Secure Layer",
-    url: "#",
-    category: "Security · Tech",
-    description:
-      "Digital security built for individuals and small teams. Enterprise-grade protection without the enterprise-grade complexity or price tag.",
+    description: "Operational infrastructure for businesses that have outgrown their original systems. Built to scale without rebuilding from scratch.",
     live: false,
   },
 ];
@@ -390,9 +406,9 @@ export default function Home() {
       <section className="py-24 px-6 border-t border-zinc-900">
         <div className="max-w-6xl mx-auto">
           <div className="mb-14">
-            <p className="text-zinc-600 text-xs tracking-[0.3em] uppercase mb-4">Ventures</p>
-            <h2 className="font-serif text-2xl text-white mb-3">What I Am Building</h2>
-            <p className="text-zinc-600 text-sm">Live and in development across technology, lifestyle, and AI.</p>
+            <p className="text-zinc-600 text-xs tracking-[0.3em] uppercase mb-4">Portfolio</p>
+            <h2 className="font-serif text-2xl text-white mb-3">Portfolio</h2>
+            <p className="text-zinc-600 text-sm">Live and in development across technology, hospitality, media, and AI.</p>
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -406,22 +422,33 @@ export default function Home() {
                 <Tag
                   key={v.name}
                   {...(linkProps as Record<string, string>)}
-                  className={`group relative border p-6 transition-colors ${
+                  className={`group relative border p-6 transition-colors flex flex-col ${
                     isLink
                       ? "border-zinc-800 hover:border-zinc-600 cursor-pointer"
                       : "border-zinc-900 cursor-default"
                   }`}
                 >
-                  <div className="flex items-start justify-between mb-4">
+                  {/* Logo mark */}
+                  <div className={`w-12 h-12 border flex items-center justify-center mb-5 transition-colors ${
+                    isLink ? "border-zinc-800 group-hover:border-zinc-600" : "border-zinc-900"
+                  }`}>
+                    <span className={`text-xs tracking-widest font-light ${
+                      isLink ? "text-zinc-400" : "text-zinc-700"
+                    }`}>
+                      {v.initials}
+                    </span>
+                  </div>
+
+                  <div className="flex items-start justify-between mb-3">
                     <p className="text-zinc-600 text-xs tracking-widest uppercase">
                       {v.category}
                     </p>
                     {v.live ? (
-                      <span className="text-xs text-zinc-500 tracking-widest uppercase border border-zinc-800 px-2 py-0.5">
-                        In Production
+                      <span className="text-xs text-zinc-500 tracking-widest uppercase border border-zinc-800 px-2 py-0.5 shrink-0 ml-2">
+                        Live
                       </span>
                     ) : (
-                      <span className="text-xs text-zinc-700 tracking-widest uppercase">
+                      <span className="text-xs text-zinc-700 tracking-widest uppercase shrink-0 ml-2">
                         Building
                       </span>
                     )}
@@ -430,12 +457,12 @@ export default function Home() {
                     className={`text-base font-light mb-3 transition-colors ${
                       isLink
                         ? "text-white group-hover:text-zinc-200"
-                        : "text-zinc-400"
+                        : "text-zinc-500"
                     }`}
                   >
                     {v.name}
                   </h3>
-                  <p className="text-zinc-600 text-xs leading-relaxed">{v.description}</p>
+                  <p className="text-zinc-600 text-xs leading-relaxed flex-1">{v.description}</p>
                   {isLink && (
                     <p className="text-zinc-700 text-xs mt-5 group-hover:text-zinc-400 transition-colors tracking-widest uppercase">
                       Visit →
