@@ -7,9 +7,8 @@ export function Footer() {
           © {year}
         </p>
         <div className="text-center sm:text-right">
-          <p className="text-zinc-500 text-xs tracking-widest uppercase">Hollinger Holdings</p>
-          <p className="text-zinc-700 text-xs tracking-widest uppercase">Hollinger AI &nbsp;·&nbsp; Applied AI Performance Systems</p>
-          <p className="text-zinc-700 text-xs tracking-widest uppercase">A Justin Strange Company</p>
+          <p className="text-zinc-600 text-xs tracking-widest uppercase">Site Marketing by Techncocktails</p>
+          <p className="text-zinc-700 text-xs tracking-widest uppercase">Hollinger Holdings &nbsp;·&nbsp; Parent Company</p>
         </div>
       </div>
     </footer>
